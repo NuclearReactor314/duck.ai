@@ -49,7 +49,7 @@ askButton.addEventListener("click", async () => {
     const response = await getDuckResponse(userQuestion); // 调用 OpenAI API
     duckSays.textContent = response || "Quack! I don’t know what to say.";
   } else if (questionCount === 5) {
-    duckSays.textContent = "Alright, I can’t hide it anymore. Someone asked me to tell you... they like you. A lot. (Hint: It's [Your Name].)";
+    duckSays.textContent = "I know this is ridiculous, but I really like you. This is the only way I can do it. )";
   } else {
     duckSays.textContent = "That’s all I’ve got for now. Quack!";
   }
